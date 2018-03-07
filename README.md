@@ -27,7 +27,7 @@
     return UIInterfaceOrientationMaskPortrait;
 }
 ```
-勾选 Hide status bar 和requires full screen，并且在info.plist下加View controller-based status bar appearance 设置为NO
+4. 勾选 Hide status bar 和requires full screen，并且在info.plist下加View controller-based status bar appearance 设置为NO
 并且在Embedded Binaries和Linked Frameworks and Libraries链接 frameworks:
 <img src="https://github.com/mikegame/iOS-JHSDKDemo/blob/master/Snapshots/FrameworkLink.png"><br/>
 
@@ -35,7 +35,7 @@
 ```
 #import <JHSDK/JHSDK.h>
 ```
-5. 初始化SDK。并更改对应的参数
+6. 初始化SDK。并更改对应的参数
 
 #### 初始化SDK `初始化方法要写在[self.window makeKeyAndVisible]方法之后`
 
@@ -67,9 +67,9 @@
 
 
     [[JHSDK sharedInstance] jhInitWithSDKParameters:[JHSDKParameters sharedJHSDKParameters] success:^{
-    NSLog(@"聚合SDK初始化成功");
+        NSLog(@"聚合SDK初始化成功");
     } failure:^(int errcode, NSString *errorMessage) {
-    NSLog(@"聚合SDK初始化失败");
+        NSLog(@"聚合SDK初始化失败");
     }];
 
     return YES;
