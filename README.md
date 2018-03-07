@@ -198,7 +198,7 @@
 
 #### 米壳SDK
 
-1、将MKSDK.framework添加到Embedded Binaries下。并且将资源文件MKSDK.xcassets导入到工程项目中。
+1、将MKSDK.framework添加到Embedded Binaries下。并且将资源文件MKSDK.xcassets导入到工程项目中。<br/>
 2、info.plist在Source Code视图下加入如下属性
 ```
 <key>NSPhotoLibraryAddUsageDescription</key>
