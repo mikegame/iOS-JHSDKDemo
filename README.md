@@ -164,6 +164,49 @@
 }
 ```
 
+#### 支付或事件回调
+```objective-c
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
+{
+    [[JHSDK sharedInstance] jhPayResult:application openURL:url options:nil];
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString*, id> *)options{
+
+    [[JHSDK sharedInstance] jhPayResult:app openURL:url options:options];
+    return YES;
+}
+
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    [[JHSDK sharedInstance] jhPayResult:application openURL:url sourceApplication:sourceApplication];
+    return YES;
+}
+
+- (void)applicationWillEnterForeground:(UIApplication *)application {
+    [[JHSDK sharedInstance] jhWillEnterForeground:application];
+}
+```
+
+
+
+
+渠道接入
+==============
+
+#### 米壳SDK
+
+1、将MKSDK.framework添加到Embedded Binaries下。并且将资源文件MKSDK.xcassets导入到工程项目中。
+2、info.plist在Source Code视图下加入如下属性
+```
+<key>NSPhotoLibraryAddUsageDescription</key>
+<string>需要获取您的相册权限用以保存账号密码</string>
+<key>NSPhotoLibraryUsageDescription</key>
+<string>需要获取您的相册权限用以保存账号密码</string>
+<key>UIRequiredDeviceCapabilities</key>
+```
 
 
 
