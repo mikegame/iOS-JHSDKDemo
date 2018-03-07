@@ -16,9 +16,9 @@
 
 
 1. 下载 JHSDKDemo 文件夹内的所有内容。<br/>
-<img src="https://github.com/mikegame/iOS-SDKDemo/blob/master/Snapshots/FrameworkPath.png"><br/>
+<img src="https://github.com/mikegame/iOS-JHSDKDemo/blob/master/Snapshots/FrameworkPath.png"><br/>
 2. 将 Frameworks 内的MKSDK.framework和MKSDK.xcassets添加(拖放)到你的工程目录中。
-<img src="https://github.com/mikegame/iOS-SDKDemo/blob/master/Snapshots/Framework.png"><br/>
+<img src="https://github.com/mikegame/iOS-JHSDKDemo/blob/master/Snapshots/Framework.png"><br/>
 3. 在对应项目Targets下找到General。<br/>
 在Deployment Info根据游戏需要，自行限制横屏还是竖屏。并且在AppDelegate入口限制方向<br/>
 ```
@@ -29,7 +29,7 @@
 ```
 勾选 Hide status bar 和requires full screen，并且在info.plist下加View controller-based status bar appearance 设置为NO
 并且在Embedded Binaries和Linked Frameworks and Libraries链接 frameworks:
-<img src="https://github.com/mikegame/iOS-SDKDemo/blob/master/Snapshots/FrameworkLink.png"><br/>
+<img src="https://github.com/mikegame/iOS-JHSDKDemo/blob/master/Snapshots/FrameworkLink.png"><br/>
 
 5. 导入 `<JHSDK/JHSDK.h>`。
 ```
