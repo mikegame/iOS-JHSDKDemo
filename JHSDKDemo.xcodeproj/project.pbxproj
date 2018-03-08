@@ -13,6 +13,9 @@
 		1496F7EE204F9999002D994B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1496F7ED204F9999002D994B /* main.m */; };
 		1496F800204F9B3C002D994B /* JHSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1496F7F9204F9B29002D994B /* JHSDK.framework */; };
 		1496F801204F9B3C002D994B /* JHSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1496F7F9204F9B29002D994B /* JHSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		14AB49E220512ADF00C6E2E5 /* MKSDK.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14AB49E020512ADE00C6E2E5 /* MKSDK.xcassets */; };
+		14AB49E420512AEF00C6E2E5 /* MKSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AB49E120512ADE00C6E2E5 /* MKSDK.framework */; };
+		14AB49E520512AEF00C6E2E5 /* MKSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 14AB49E120512ADE00C6E2E5 /* MKSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +26,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				1496F801204F9B3C002D994B /* JHSDK.framework in Embed Frameworks */,
+				14AB49E520512AEF00C6E2E5 /* MKSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,6 +43,8 @@
 		1496F7EC204F9999002D994B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1496F7ED204F9999002D994B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1496F7F9204F9B29002D994B /* JHSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JHSDK.framework; sourceTree = "<group>"; };
+		14AB49E020512ADE00C6E2E5 /* MKSDK.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MKSDK.xcassets; sourceTree = "<group>"; };
+		14AB49E120512ADE00C6E2E5 /* MKSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MKSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1496F800204F9B3C002D994B /* JHSDK.framework in Frameworks */,
+				14AB49E420512AEF00C6E2E5 /* MKSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +94,8 @@
 		1496F7F4204F9A43002D994B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				14AB49E120512ADE00C6E2E5 /* MKSDK.framework */,
+				14AB49E020512ADE00C6E2E5 /* MKSDK.xcassets */,
 				1496F7F9204F9B29002D994B /* JHSDK.framework */,
 			);
 			path = Frameworks;
@@ -151,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14AB49E220512ADF00C6E2E5 /* MKSDK.xcassets in Resources */,
 				1496F7E8204F9999002D994B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
