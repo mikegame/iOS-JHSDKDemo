@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>flag</key>
+	<string>3</string>
+	<key>host</key>
+	<string>1</string>
+	<key>productId</key>
+	<string>leniu</string>
+	<key>FuseAppKey</key>
+	<string>fswqoamjp6fg6uq4f6gr5qar51q0an3l</string>
+	<key>appKey</key>
+	<string>fswq5rlru3jibtsuortbpe3jvh0vu34x</string>
+	<key>version</key>
+	<string>1.3</string>
+	<key>adversion</key>
+	<string>20180308</string>
+	<key>adver</key>
+	<string>b3d4e57c13</string>
+	<key>sdkver</key>
+	<string>4.4</string>
+	<key>appid</key>
+	<string>10194</string>
+	<key>fuseAppid</key>
+	<string>52120</string>
+</dict>
+</plist>

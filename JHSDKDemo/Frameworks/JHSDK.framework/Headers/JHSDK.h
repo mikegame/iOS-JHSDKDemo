@@ -24,8 +24,15 @@ FOUNDATION_EXPORT const unsigned char JHSDKVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <JHSDK/PublicHeader.h>
 
 
+typedef NS_ENUM(NSInteger, JHInterfaceOrientation) {
+    JHInterfaceOrientationUnknown     = 0,
+    JHInterfaceOrientationIsPortrait  = 1,
+    JHInterfaceOrientationIsLandscape = 2
+};
+
 
 typedef void (^jhLoginSuccessBlock)(JHUserModel *userModel);
+typedef void (^jhPaySuccessBlock)(void);
 typedef void (^jhLogoutBlock)(void);
 typedef void (^jhFailureBlock)(int errcode, NSString *errorMessage);
 
@@ -47,47 +54,17 @@ typedef void (^jhFailureBlock)(int errcode, NSString *errorMessage);
 - (NSString *)jhSDKVersion;
 
 
-/**
- * SDK初始化参数对象
- */
-@property (nonatomic, strong) JHSDKParameters *jhSdkParameters;
 
 /**
  *  初始化
  *
- *  @param jhSdkParameters     聚合sdk初始化参数对象
- *  @param successBlock        登录成功回调
- *  @param errorBlock          登录失败回调
+ *  @param successBlock          登录成功回调
+ *  @param errorBlock            登录失败回调
  */
-- (void)jhInitWithSDKParameters:(JHSDKParameters *)jhSdkParameters
-                        success:(void (^)(void))successBlock
-                        failure:(void (^)(int errcode, NSString *errorMessage))errorBlock;
-
-/**
- *  第三方支付回调
- *
- *  @param app     UIApplication
- *  @param url     NSURL
- *  @param options options
- */
-- (void)jhPayResult:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString*, id> *)options;
-
-/**
- *  第三方支付回调
- *
- *  @param app     UIApplication
- *  @param url     NSURL
- *  @param sourceApplication sourceApplication
- */
-- (void)jhPayResult:(UIApplication *)app openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication;
+- (void)jhInit:(void (^)(void))successBlock
+       failure:(void (^)(int errcode, NSString *errorMessage))errorBlock;
 
 
-/**
- *  App从后台恢复至前台
- *
- *  @param application application
- */
-- (void)jhWillEnterForeground:(UIApplication *)application;
 
 /**
  *  登陆
@@ -115,7 +92,9 @@ typedef void (^jhFailureBlock)(int errcode, NSString *errorMessage);
  *
  *  @param jhPayModel 订单对象
  */
-- (void)jhPay:(JHPayModel *)jhPayModel;
+- (void)jhPay:(JHPayModel *)jhPayModel
+      success:(jhPaySuccessBlock)successBlock
+      failure:(jhFailureBlock)errorBlock;
 
 
 /**
@@ -125,5 +104,59 @@ typedef void (^jhFailureBlock)(int errcode, NSString *errorMessage);
  */
 - (void)jhReportRole:(JHRoleModel *)jhRoleModel;
 
+
+
+- (void)jhApplication:(UIApplication *)application handleOpenURL:(NSURL *)url;
+/**
+ *  第三方支付回调
+ *
+ *  @param application     UIApplication
+ *  @param url     NSURL
+ *  @param options options
+ */
+- (void)jhApplication:(UIApplication *)application openURL:(NSURL *)url options:(NSDictionary<NSString*, id> *)options;
+
+
+/**
+ *  第三方支付回调
+ *
+ *  @param application     UIApplication
+ *  @param url     NSURL
+ *  @param sourceApplication sourceApplication
+ */
+- (void)jhApplication:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation;
+
+
+/**
+ *  注册推送回调
+ *
+ *  @param application     application
+ *  @param deviceToken 推送标示
+ */
+- (void)jhApplication:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken;
+
+
+- (void)jhApplication:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo;
+
+
+- (void)jhApplicationWillEnterForeground:(UIApplication *)application;
+
+
+- (void)jhApplicationWillResignActive:(UIApplication *)application;
+
+
+- (void)jhApplicationDidEnterBackground:(UIApplication *)application;
+
+
+- (void)jhApplicationDidBecomeActive:(UIApplication *)application;
+
+/**
+ *  App从后台恢复至前台
+ *
+ *  @param application application
+ */
+- (void)jhApplicationWillTerminate:(UIApplication *)application;
+
+- (void)jhApplicationDidReceiveMemoryWarning:(UIApplication *)application;
 
 @end

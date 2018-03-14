@@ -13,6 +13,8 @@
 typedef NS_ENUM(NSInteger, JHPlatformType) {
     JHPlatformUnknown = 0,
     JHMKPlatform      = 1,          //米壳
+    JHLNPlatform      = 2,          //乐牛
+    JHIEPlatform      = 3           //冰鸟
 };
 
 @interface JHSDKParameters : NSObject
@@ -75,7 +77,18 @@ typedef NS_ENUM(NSInteger, JHPlatformType) {
 /**
  *  米壳SDK初始化参数对象
  */
-@property (nonatomic, strong) JHMkSDKInitModel *jhMkSDKInitModel;
+@property (nonatomic, strong) JHMKSDKInitModel *jhMKSDKInitModel;
+
+/**
+ *  乐牛SDK初始化参数对象
+ */
+@property (nonatomic, strong) JHLNSDKInitModel *jhLNSDKInitModel;
+
+/**
+ *  冰鸟SDK初始化参数对象
+ */
+@property (nonatomic, strong) JHIESDKInitModel *jhIESDKInitModel;
+
 
 /**
  *  获取JHSDKParameters单例

@@ -15,10 +15,6 @@
  */
 @property (nonatomic, strong) NSString *userId;
 
-/**
- *  用户名
- */
-@property (nonatomic, strong) NSString *username;
 
 /**
  *  会话ID

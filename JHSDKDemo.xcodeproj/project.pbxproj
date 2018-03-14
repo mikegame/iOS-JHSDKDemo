@@ -7,18 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14844E802058FDCD00E23566 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14844E7F2058FDCD00E23566 /* AppDelegate.m */; };
+		14844E832058FDCD00E23566 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14844E822058FDCD00E23566 /* ViewController.m */; };
+		14844E8E2058FDCE00E23566 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14844E8D2058FDCE00E23566 /* main.m */; };
+		14844E922058FE0D00E23566 /* MKSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14844E6F2058FDA700E23566 /* MKSDK.framework */; };
+		14844E932058FE0D00E23566 /* MKSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 14844E6F2058FDA700E23566 /* MKSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		14844E952058FE1100E23566 /* JHSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1496F7F9204F9B29002D994B /* JHSDK.framework */; };
+		14844E962058FE1100E23566 /* JHSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1496F7F9204F9B29002D994B /* JHSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		14844E972058FE1B00E23566 /* MKSDK.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14844E702058FDA700E23566 /* MKSDK.xcassets */; };
+		14844E982058FFB500E23566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1496F7E7204F9999002D994B /* Assets.xcassets */; };
 		1496F7E0204F9999002D994B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1496F7DF204F9999002D994B /* AppDelegate.m */; };
 		1496F7E3204F9999002D994B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1496F7E2204F9999002D994B /* ViewController.m */; };
 		1496F7E8204F9999002D994B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1496F7E7204F9999002D994B /* Assets.xcassets */; };
 		1496F7EE204F9999002D994B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1496F7ED204F9999002D994B /* main.m */; };
 		1496F800204F9B3C002D994B /* JHSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1496F7F9204F9B29002D994B /* JHSDK.framework */; };
 		1496F801204F9B3C002D994B /* JHSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1496F7F9204F9B29002D994B /* JHSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		14AB49E220512ADF00C6E2E5 /* MKSDK.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14AB49E020512ADE00C6E2E5 /* MKSDK.xcassets */; };
-		14AB49E420512AEF00C6E2E5 /* MKSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14AB49E120512ADE00C6E2E5 /* MKSDK.framework */; };
-		14AB49E520512AEF00C6E2E5 /* MKSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 14AB49E120512ADE00C6E2E5 /* MKSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		14DE5DB620592295000C66C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DE5DB520592295000C66C3 /* AppDelegate.m */; };
+		14DE5DB920592295000C66C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DE5DB820592295000C66C3 /* ViewController.m */; };
+		14DE5DC420592295000C66C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DE5DC320592295000C66C3 /* main.m */; };
+		14DE5DC8205922AA000C66C3 /* JHSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1496F7F9204F9B29002D994B /* JHSDK.framework */; };
+		14DE5DC9205922AA000C66C3 /* JHSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1496F7F9204F9B29002D994B /* JHSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		14DE5DCC205922BC000C66C3 /* IEagle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14844E722058FDA700E23566 /* IEagle.framework */; };
+		14DE5DCD205922CA000C66C3 /* IEagleSrc.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 14844E732058FDA700E23566 /* IEagleSrc.bundle */; };
+		14DE5DCE205922CA000C66C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1496F7E7204F9999002D994B /* Assets.xcassets */; };
+		14DE5DD720592A1E000C66C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DE5DD620592A1E000C66C3 /* AppDelegate.m */; };
+		14DE5DDA20592A1E000C66C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DE5DD920592A1E000C66C3 /* ViewController.m */; };
+		14DE5DE520592A1E000C66C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DE5DE420592A1E000C66C3 /* main.m */; };
+		14DE5DE920592A5E000C66C3 /* JHSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1496F7F9204F9B29002D994B /* JHSDK.framework */; };
+		14DE5DEA20592A5E000C66C3 /* JHSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1496F7F9204F9B29002D994B /* JHSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		14DE5DEC20592A6B000C66C3 /* LNFrameWrok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14844E772058FDA700E23566 /* LNFrameWrok.framework */; };
+		14DE5DED20592A72000C66C3 /* leniuParam.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14844E752058FDA700E23566 /* leniuParam.plist */; };
+		14DE5DEE20592A72000C66C3 /* LNResourceImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 14844E762058FDA700E23566 /* LNResourceImage.bundle */; };
+		14DE5DEF20592A75000C66C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1496F7E7204F9999002D994B /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		14844E942058FE0D00E23566 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				14844E932058FE0D00E23566 /* MKSDK.framework in Embed Frameworks */,
+				14844E962058FE1100E23566 /* JHSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1496F804204F9B3C002D994B /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -26,7 +61,28 @@
 			dstSubfolderSpec = 10;
 			files = (
 				1496F801204F9B3C002D994B /* JHSDK.framework in Embed Frameworks */,
-				14AB49E520512AEF00C6E2E5 /* MKSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DE5DCA205922AA000C66C3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				14DE5DC9205922AA000C66C3 /* JHSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DE5DEB20592A5E000C66C3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				14DE5DEA20592A5E000C66C3 /* JHSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -34,6 +90,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		14844E6F2058FDA700E23566 /* MKSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MKSDK.framework; sourceTree = "<group>"; };
+		14844E702058FDA700E23566 /* MKSDK.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MKSDK.xcassets; sourceTree = "<group>"; };
+		14844E722058FDA700E23566 /* IEagle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IEagle.framework; sourceTree = "<group>"; };
+		14844E732058FDA700E23566 /* IEagleSrc.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IEagleSrc.bundle; sourceTree = "<group>"; };
+		14844E752058FDA700E23566 /* leniuParam.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = leniuParam.plist; sourceTree = "<group>"; };
+		14844E762058FDA700E23566 /* LNResourceImage.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LNResourceImage.bundle; sourceTree = "<group>"; };
+		14844E772058FDA700E23566 /* LNFrameWrok.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LNFrameWrok.framework; sourceTree = "<group>"; };
+		14844E7C2058FDCD00E23566 /* JHMKSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHMKSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14844E7E2058FDCD00E23566 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14844E7F2058FDCD00E23566 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14844E812058FDCD00E23566 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14844E822058FDCD00E23566 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14844E8C2058FDCE00E23566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14844E8D2058FDCE00E23566 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1496F7DB204F9999002D994B /* JHSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1496F7DE204F9999002D994B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1496F7DF204F9999002D994B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -43,28 +113,111 @@
 		1496F7EC204F9999002D994B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1496F7ED204F9999002D994B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1496F7F9204F9B29002D994B /* JHSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JHSDK.framework; sourceTree = "<group>"; };
-		14AB49E020512ADE00C6E2E5 /* MKSDK.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MKSDK.xcassets; sourceTree = "<group>"; };
-		14AB49E120512ADE00C6E2E5 /* MKSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MKSDK.framework; sourceTree = "<group>"; };
+		14DE5DB220592295000C66C3 /* JHIESDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHIESDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14DE5DB420592295000C66C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14DE5DB520592295000C66C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14DE5DB720592295000C66C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14DE5DB820592295000C66C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14DE5DC220592295000C66C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14DE5DC320592295000C66C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14DE5DD320592A1E000C66C3 /* JHLNSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHLNSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14DE5DD520592A1E000C66C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14DE5DD620592A1E000C66C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14DE5DD820592A1E000C66C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14DE5DD920592A1E000C66C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14DE5DE320592A1E000C66C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14DE5DE420592A1E000C66C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		14844E792058FDCD00E23566 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14844E922058FE0D00E23566 /* MKSDK.framework in Frameworks */,
+				14844E952058FE1100E23566 /* JHSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1496F7D8204F9999002D994B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1496F800204F9B3C002D994B /* JHSDK.framework in Frameworks */,
-				14AB49E420512AEF00C6E2E5 /* MKSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DE5DAF20592295000C66C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DE5DCC205922BC000C66C3 /* IEagle.framework in Frameworks */,
+				14DE5DC8205922AA000C66C3 /* JHSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DE5DD020592A1E000C66C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DE5DEC20592A6B000C66C3 /* LNFrameWrok.framework in Frameworks */,
+				14DE5DE920592A5E000C66C3 /* JHSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14844E6E2058FDA700E23566 /* MKSDk */ = {
+			isa = PBXGroup;
+			children = (
+				14844E6F2058FDA700E23566 /* MKSDK.framework */,
+				14844E702058FDA700E23566 /* MKSDK.xcassets */,
+			);
+			path = MKSDk;
+			sourceTree = "<group>";
+		};
+		14844E712058FDA700E23566 /* IEagle */ = {
+			isa = PBXGroup;
+			children = (
+				14844E722058FDA700E23566 /* IEagle.framework */,
+				14844E732058FDA700E23566 /* IEagleSrc.bundle */,
+			);
+			path = IEagle;
+			sourceTree = "<group>";
+		};
+		14844E742058FDA700E23566 /* LNSDK */ = {
+			isa = PBXGroup;
+			children = (
+				14844E752058FDA700E23566 /* leniuParam.plist */,
+				14844E762058FDA700E23566 /* LNResourceImage.bundle */,
+				14844E772058FDA700E23566 /* LNFrameWrok.framework */,
+			);
+			path = LNSDK;
+			sourceTree = "<group>";
+		};
+		14844E7D2058FDCD00E23566 /* JHMKSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				14844E7E2058FDCD00E23566 /* AppDelegate.h */,
+				14844E7F2058FDCD00E23566 /* AppDelegate.m */,
+				14844E812058FDCD00E23566 /* ViewController.h */,
+				14844E822058FDCD00E23566 /* ViewController.m */,
+				14844E8C2058FDCE00E23566 /* Info.plist */,
+				14844E8D2058FDCE00E23566 /* main.m */,
+			);
+			path = JHMKSDKDemo;
+			sourceTree = "<group>";
+		};
 		1496F7D2204F9999002D994B = {
 			isa = PBXGroup;
 			children = (
 				1496F7DD204F9999002D994B /* JHSDKDemo */,
+				14844E7D2058FDCD00E23566 /* JHMKSDKDemo */,
+				14DE5DB320592295000C66C3 /* JHIESDKDemo */,
+				14DE5DD420592A1E000C66C3 /* JHLNSDKDemo */,
 				1496F7DC204F9999002D994B /* Products */,
+				14DE5DCB205922BC000C66C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +225,9 @@
 			isa = PBXGroup;
 			children = (
 				1496F7DB204F9999002D994B /* JHSDKDemo.app */,
+				14844E7C2058FDCD00E23566 /* JHMKSDKDemo.app */,
+				14DE5DB220592295000C66C3 /* JHIESDKDemo.app */,
+				14DE5DD320592A1E000C66C3 /* JHLNSDKDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,16 +250,68 @@
 		1496F7F4204F9A43002D994B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				14AB49E120512ADE00C6E2E5 /* MKSDK.framework */,
-				14AB49E020512ADE00C6E2E5 /* MKSDK.xcassets */,
+				14844E712058FDA700E23566 /* IEagle */,
+				14844E742058FDA700E23566 /* LNSDK */,
+				14844E6E2058FDA700E23566 /* MKSDk */,
 				1496F7F9204F9B29002D994B /* JHSDK.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
+		14DE5DB320592295000C66C3 /* JHIESDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				14DE5DB420592295000C66C3 /* AppDelegate.h */,
+				14DE5DB520592295000C66C3 /* AppDelegate.m */,
+				14DE5DB720592295000C66C3 /* ViewController.h */,
+				14DE5DB820592295000C66C3 /* ViewController.m */,
+				14DE5DC220592295000C66C3 /* Info.plist */,
+				14DE5DC320592295000C66C3 /* main.m */,
+			);
+			path = JHIESDKDemo;
+			sourceTree = "<group>";
+		};
+		14DE5DCB205922BC000C66C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14DE5DD420592A1E000C66C3 /* JHLNSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				14DE5DD520592A1E000C66C3 /* AppDelegate.h */,
+				14DE5DD620592A1E000C66C3 /* AppDelegate.m */,
+				14DE5DD820592A1E000C66C3 /* ViewController.h */,
+				14DE5DD920592A1E000C66C3 /* ViewController.m */,
+				14DE5DE320592A1E000C66C3 /* Info.plist */,
+				14DE5DE420592A1E000C66C3 /* main.m */,
+			);
+			path = JHLNSDKDemo;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		14844E7B2058FDCD00E23566 /* JHMKSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14844E8F2058FDCE00E23566 /* Build configuration list for PBXNativeTarget "JHMKSDKDemo" */;
+			buildPhases = (
+				14844E782058FDCD00E23566 /* Sources */,
+				14844E792058FDCD00E23566 /* Frameworks */,
+				14844E7A2058FDCD00E23566 /* Resources */,
+				14844E942058FE0D00E23566 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JHMKSDKDemo;
+			productName = JHMKSDKDemo;
+			productReference = 14844E7C2058FDCD00E23566 /* JHMKSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 		1496F7DA204F9999002D994B /* JHSDKDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1496F7F1204F9999002D994B /* Build configuration list for PBXNativeTarget "JHSDKDemo" */;
@@ -122,6 +330,42 @@
 			productReference = 1496F7DB204F9999002D994B /* JHSDKDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		14DE5DB120592295000C66C3 /* JHIESDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14DE5DC720592295000C66C3 /* Build configuration list for PBXNativeTarget "JHIESDKDemo" */;
+			buildPhases = (
+				14DE5DAE20592295000C66C3 /* Sources */,
+				14DE5DAF20592295000C66C3 /* Frameworks */,
+				14DE5DB020592295000C66C3 /* Resources */,
+				14DE5DCA205922AA000C66C3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JHIESDKDemo;
+			productName = JHIESDKDemo;
+			productReference = 14DE5DB220592295000C66C3 /* JHIESDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14DE5DD220592A1E000C66C3 /* JHLNSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14DE5DE620592A1E000C66C3 /* Build configuration list for PBXNativeTarget "JHLNSDKDemo" */;
+			buildPhases = (
+				14DE5DCF20592A1E000C66C3 /* Sources */,
+				14DE5DD020592A1E000C66C3 /* Frameworks */,
+				14DE5DD120592A1E000C66C3 /* Resources */,
+				14DE5DEB20592A5E000C66C3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JHLNSDKDemo;
+			productName = JHLNSDKDemo;
+			productReference = 14DE5DD320592A1E000C66C3 /* JHLNSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -131,7 +375,19 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "熙文 张";
 				TargetAttributes = {
+					14844E7B2058FDCD00E23566 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
 					1496F7DA204F9999002D994B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					14DE5DB120592295000C66C3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					14DE5DD220592A1E000C66C3 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Manual;
 					};
@@ -151,23 +407,63 @@
 			projectRoot = "";
 			targets = (
 				1496F7DA204F9999002D994B /* JHSDKDemo */,
+				14844E7B2058FDCD00E23566 /* JHMKSDKDemo */,
+				14DE5DB120592295000C66C3 /* JHIESDKDemo */,
+				14DE5DD220592A1E000C66C3 /* JHLNSDKDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		14844E7A2058FDCD00E23566 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14844E982058FFB500E23566 /* Assets.xcassets in Resources */,
+				14844E972058FE1B00E23566 /* MKSDK.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1496F7D9204F9999002D994B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14AB49E220512ADF00C6E2E5 /* MKSDK.xcassets in Resources */,
 				1496F7E8204F9999002D994B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DE5DB020592295000C66C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DE5DCD205922CA000C66C3 /* IEagleSrc.bundle in Resources */,
+				14DE5DCE205922CA000C66C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DE5DD120592A1E000C66C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DE5DEF20592A75000C66C3 /* Assets.xcassets in Resources */,
+				14DE5DED20592A72000C66C3 /* leniuParam.plist in Resources */,
+				14DE5DEE20592A72000C66C3 /* LNResourceImage.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		14844E782058FDCD00E23566 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14844E832058FDCD00E23566 /* ViewController.m in Sources */,
+				14844E8E2058FDCE00E23566 /* main.m in Sources */,
+				14844E802058FDCD00E23566 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1496F7D7204F9999002D994B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -178,9 +474,77 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		14DE5DAE20592295000C66C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DE5DB920592295000C66C3 /* ViewController.m in Sources */,
+				14DE5DC420592295000C66C3 /* main.m in Sources */,
+				14DE5DB620592295000C66C3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14DE5DCF20592A1E000C66C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14DE5DDA20592A1E000C66C3 /* ViewController.m in Sources */,
+				14DE5DE520592A1E000C66C3 /* main.m in Sources */,
+				14DE5DD720592A1E000C66C3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		14844E902058FDCE00E23566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = V87F6X22SL;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JHSDKDemo/Frameworks/MKSDk",
+					"$(PROJECT_DIR)/JHSDKDemo/Frameworks",
+				);
+				INFOPLIST_FILE = JHMKSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mk.JHMKSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d7af6cad-7729-45e0-befc-052efd0537d0";
+				PROVISIONING_PROFILE_SPECIFIER = "dev mksdk-com.mk.*";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14844E912058FDCE00E23566 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = V87F6X22SL;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JHSDKDemo/Frameworks/MKSDk",
+					"$(PROJECT_DIR)/JHSDKDemo/Frameworks",
+				);
+				INFOPLIST_FILE = JHMKSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mk.JHMKSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d7af6cad-7729-45e0-befc-052efd0537d0";
+				PROVISIONING_PROFILE_SPECIFIER = "dev mksdk-com.mk.*";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		1496F7EF204F9999002D994B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -331,9 +695,118 @@
 			};
 			name = Release;
 		};
+		14DE5DC520592295000C66C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = V87F6X22SL;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JHSDKDemo/Frameworks",
+					"$(PROJECT_DIR)/JHSDKDemo/Frameworks/IEagle",
+				);
+				INFOPLIST_FILE = JHIESDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mk.JHIESDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d7af6cad-7729-45e0-befc-052efd0537d0";
+				PROVISIONING_PROFILE_SPECIFIER = "dev mksdk-com.mk.*";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14DE5DC620592295000C66C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = V87F6X22SL;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JHSDKDemo/Frameworks",
+					"$(PROJECT_DIR)/JHSDKDemo/Frameworks/IEagle",
+				);
+				INFOPLIST_FILE = JHIESDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mk.JHIESDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d7af6cad-7729-45e0-befc-052efd0537d0";
+				PROVISIONING_PROFILE_SPECIFIER = "dev mksdk-com.mk.*";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		14DE5DE720592A1E000C66C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = V87F6X22SL;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JHSDKDemo/Frameworks",
+					"$(PROJECT_DIR)/JHSDKDemo/Frameworks/LNSDK",
+				);
+				INFOPLIST_FILE = JHLNSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mk.JHLNSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d7af6cad-7729-45e0-befc-052efd0537d0";
+				PROVISIONING_PROFILE_SPECIFIER = "dev mksdk-com.mk.*";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14DE5DE820592A1E000C66C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = V87F6X22SL;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JHSDKDemo/Frameworks",
+					"$(PROJECT_DIR)/JHSDKDemo/Frameworks/LNSDK",
+				);
+				INFOPLIST_FILE = JHLNSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mk.JHLNSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d7af6cad-7729-45e0-befc-052efd0537d0";
+				PROVISIONING_PROFILE_SPECIFIER = "dev mksdk-com.mk.*";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		14844E8F2058FDCE00E23566 /* Build configuration list for PBXNativeTarget "JHMKSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14844E902058FDCE00E23566 /* Debug */,
+				14844E912058FDCE00E23566 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1496F7D6204F9999002D994B /* Build configuration list for PBXProject "JHSDKDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -348,6 +821,24 @@
 			buildConfigurations = (
 				1496F7F2204F9999002D994B /* Debug */,
 				1496F7F3204F9999002D994B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14DE5DC720592295000C66C3 /* Build configuration list for PBXNativeTarget "JHIESDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14DE5DC520592295000C66C3 /* Debug */,
+				14DE5DC620592295000C66C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14DE5DE620592A1E000C66C3 /* Build configuration list for PBXNativeTarget "JHLNSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14DE5DE720592A1E000C66C3 /* Debug */,
+				14DE5DE820592A1E000C66C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,6 @@
+framework module IEagle {
+  umbrella header "IEagle.h"
+
+  export *
+  module * { export * }
+}
