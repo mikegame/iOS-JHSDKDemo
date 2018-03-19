@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+
 @interface JHSDKInitModel : NSObject
 
 @end
@@ -49,6 +50,8 @@
  *  热云渠道ID
  */
 @property (nonatomic, strong) NSString *ryChannelID;
+
+@property (nonatomic, copy) id jhLogoutBlock;
 
 @end
 

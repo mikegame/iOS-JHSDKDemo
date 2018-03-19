@@ -18,8 +18,14 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
-    NSLog(@"聚合SDK版本%@", [[JHSDK sharedInstance] jhSDKVersion]);
     [super viewDidLoad];
+    
+    NSLog(@"聚合SDK版本%@", [[JHSDK sharedInstance] jhSDKVersion]);
+    
+    [[JHSDK sharedInstance] setJhLogoutBlock:^{
+        NSLog(@"聚合SDK注销成功");
+    }];;
+    
     UIInterfaceOrientation orientation = [[UIApplication sharedApplication] statusBarOrientation];
     UIImageView *bgImageView = [UIImageView new];
     //    [bgImageView setContentMode:UIViewContentModeScaleAspectFit];
@@ -147,9 +153,7 @@
 
 - (void)logOutButtonClick
 {
-    [[JHSDK sharedInstance] jhLogout:^{
-        NSLog(@"聚合SDK注销成功");
-    }];
+    [[JHSDK sharedInstance] jhLogout];
 }
 
 

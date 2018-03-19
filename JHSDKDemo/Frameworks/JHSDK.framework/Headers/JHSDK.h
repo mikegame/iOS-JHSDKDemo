@@ -39,6 +39,7 @@ typedef void (^jhFailureBlock)(int errcode, NSString *errorMessage);
 
 @interface JHSDK : NSObject
 
+@property (nonatomic, copy) jhLogoutBlock jhLogoutBlock;
 
 /**
  *  返回一个静态单例对象
@@ -85,7 +86,7 @@ typedef void (^jhFailureBlock)(int errcode, NSString *errorMessage);
 /**
  *  注销
  */
-- (void)jhLogout:(jhLogoutBlock)jhLogoutBlock;
+- (void)jhLogout;
 
 /**
  *  支付
