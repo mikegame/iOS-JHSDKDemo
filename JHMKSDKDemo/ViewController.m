@@ -138,6 +138,9 @@
         [roleModel setRoleLevel:1];
         [roleModel setLoginTime:dateTime];
         [[JHSDK sharedInstance] jhReportRole:roleModel];
+        
+        
+        
     } failure:^(int errcode, NSString *errorMessage) {
         NSLog(@"聚合登录失败：%d -- %@", errcode, errorMessage);
     }];

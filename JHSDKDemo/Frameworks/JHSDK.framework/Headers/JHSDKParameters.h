@@ -20,7 +20,7 @@ typedef NS_ENUM(NSInteger, JHPlatformType) {
 @interface JHSDKParameters : NSObject
 
 /**
- *  合作商编号
+ *  游戏编号
  */
 @property (nonatomic, assign) int gameId;
 
@@ -28,11 +28,6 @@ typedef NS_ENUM(NSInteger, JHPlatformType) {
  *  游戏密钥
  */
 @property (nonatomic, assign) int subGameId;
-
-/**
- *  游戏密钥
- */
-
 
 /**
  *  游戏密钥
